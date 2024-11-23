@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>सर्जकहरूको कक्ष</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FAF3E0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .creators-container {
+            margin: 10px auto;
+            width: 95%;
+            max-width: 500px; /* Focus on mobile screen width */
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #creators-header {
+            padding: 10px;
+            background-color: #191970;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .creator-post {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .creator-post img {
+            width: 100%; /* Make the image occupy full container width */
+            max-width: 300px; /* Ensure it doesn't exceed a manageable size */
+            height: auto;
+            border-radius: 5px;
+            margin: 0 auto;
+            display: block; /* Center-align the image */
+            cursor: pointer; /* Change cursor to pointer for clickability */
+        }
+
+        .creator-post h3 {
+            color: #191970;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .creator-post p {
+            color: #555;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .creator-post a {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .creator-post a:hover {
+            text-decoration: underline;
+        }
+
+        /* Adjustments for smaller screens */
+        @media (max-width: 600px) {
+            .creators-container {
+                padding: 8px;
+            }
+
+            .creator-post {
+                padding: 8px;
+            }
+
+            .creator-post h3 {
+                font-size: 16px;
+            }
+
+            .creator-post p {
+                font-size: 12px;
+            }
+
+            .creator-post img {
+                max-width: 250px; /* Further reduce image size on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="creators-container">
+        <div id="creators-header">
+            <span>सर्जकहरूको कक्ष</span>
+        </div>
+        <div id="creator-posts">
+            <div class="creator-post">
+                <a href="post.html?id=1">
+                    <img src="1.jpg" alt="चाहना">
+                </a>
+                <h3>चाहना</h3>
+                <p>यो कविता मेरो जीवनको इच्छाको बारेमा हो।</p>
+                <a href="post.html?id=1">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=2">
+                    <img src="2.jpg" alt="सपना चित्रकला">
+                </a>
+                <h3>सपना चित्रकला</h3>
+                <p>मेरो चित्रकला जसमा मैले प्रकृतिको सुन्दरतालाई कैद गरेको छु।</p>
+                <a href="post.html?id=2">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=3">
+                    <img src="3.jpg" alt="कविता र संगीत">
+                </a>
+                <h3>कविता र संगीत</h3>
+                <p>म मेरो कविता र संगीतमा भावनात्मक गहिराई खोज्छु।</p>
+                <a href="post.html?id=3">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=4">
+                    <img src="1.jpg" alt="सचित्र गाथा">
+                </a>
+                <h3>सचित्र गाथा</h3>
+                <p>सचित्र गाथाले समाजको अवस्थालाई अन्वेषण गर्दछ।</p>
+                <a href="post.html?id=4">अधिक पढ्नुहोस्</a>
+            </div>
+            <div class="creator-post">
+                <a href="post.html?id=5">
+                    <img src="2.jpg" alt="संगीत र परिप्रेक्ष्य">
+                </a>
+                <h3>संगीत र परिप्रेक्ष्य</h3>
+                <p>संगीत मेरो जीवनको अभिन्न हिस्सा हो।</p>
+                <a href="post.html?id=5">अधिक पढ्नुहोस्</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
